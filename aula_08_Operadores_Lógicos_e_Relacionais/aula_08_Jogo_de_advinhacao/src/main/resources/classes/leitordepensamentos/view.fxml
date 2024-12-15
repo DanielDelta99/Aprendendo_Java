@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classes.leitordepensamentos.Controller">
+   <children>
+      <ImageView fitHeight="359.0" fitWidth="162.0" layoutX="433.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mago.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="359.0" fitWidth="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@balao.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="palpite" layoutX="165.0" layoutY="417.0" mnemonicParsing="false" onAction="#comparar" prefHeight="33.0" prefWidth="96.0" text="Palpite" />
+      <Label fx:id="inicioTela" layoutX="90.0" layoutY="92.0" prefHeight="119.0" prefWidth="197.0" text="Estou pensando em um numero de 1 a 5 tente adivinhar!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numero" layoutX="165.0" layoutY="363.0" prefHeight="25.0" prefWidth="96.0" />
+      <Label layoutX="75.0" layoutY="362.0" text="Número:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="finalTela" layoutX="94.0" layoutY="101.0" prefHeight="101.0" prefWidth="189.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
