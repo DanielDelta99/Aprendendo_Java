@@ -66,6 +66,9 @@ Ao longo das aulas, à medida que for praticando, irei desenvolver **pequenos pr
 ## 📌 Observações
 
 - Todos os **relatórios** das aulas foram criados nos arquivos `README.md` de cada pasta correspondente.
+- Algumas das imagens presentes nos relatórios são capturas de tela dos slides das aulas. Algumas dessas imagens foram modificadas, incluindo ajustes nos próprios conteúdos visuais ou adaptações dos exemplos que alterei para torná-los mais interessantes.
+- É importante destacar que não segui as aulas à risca em todas as atividades práticas, pois já possuo um conhecimento prévio sobre algoritmos e Python. No entanto, estou me esforçando para criar materiais o mais didáticos e claros possíveis.
+- Por preferência em relação à IDE (IntelliJ IDEA), optei por me aprofundar no JavaFX, já que ele oferece uma integração melhor com essa ferramenta, diferentemente do Swing. Assim, embora o professor Guanabara esteja desenvolvendo as interfaces utilizando Swing, estou me dedicando a reproduzi-las, e até mesmo aprimorá-las, utilizando JavaFX.
 - **Contribuições** e sugestões são sempre bem-vindas. Se você quiser colaborar, sinta-se à vontade para fazer um **fork** e abrir **pull requests**.
 
 ---
@@ -75,6 +78,7 @@ Ao longo das aulas, à medida que for praticando, irei desenvolver **pequenos pr
 - **Java SE** (Standard Edition)
 - **JDK** (Java Development Kit)
 - **JavaFX** (para construção de interfaces gráficas)
+- **Scene Builder** (Editor de FXML)
 
 ---
 
@@ -82,5 +86,6 @@ Ao longo das aulas, à medida que for praticando, irei desenvolver **pequenos pr
 
 Caso tenha dúvidas ou queira conversar sobre o projeto, você pode me encontrar nas seguintes plataformas:
 
-- [GitHub](https://github.com/DanielAlves)
-
+- [GitHub]()
+- [Instagran]()
+- [Likedin]()

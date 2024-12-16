@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classes.tipodetriangulo.Controller">
+   <children>
+      <Slider fx:id="barraA" blockIncrement="1.0" layoutX="142.0" layoutY="57.0" max="20.0" />
+      <Slider fx:id="barraB" blockIncrement="1.0" layoutX="142.0" layoutY="89.0" max="20.0" />
+      <Slider fx:id="barraC" blockIncrement="1.0" layoutX="142.0" layoutY="124.0" max="20.0" />
+      <Label layoutX="34.0" layoutY="55.0" text="Segmento A">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="87.0" text="Segmento B">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="121.0" text="Segmento C">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="telaA" layoutX="304.0" layoutY="54.0" prefHeight="20.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="telaB" layoutX="304.0" layoutY="86.0" prefHeight="20.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="telaC" layoutX="304.0" layoutY="121.0" prefHeight="20.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="calcular" layoutX="142.0" layoutY="170.0" mnemonicParsing="false" onAction="#actionCalcular" text="Verificar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextFlow fx:id="caixaTexto" layoutX="40.0" layoutY="246.0" prefHeight="111.0" prefWidth="272.0" visible="false">
+         <children>
+            <Label fx:id="verificador" alignment="CENTER" prefHeight="17.0" prefWidth="270.0" textFill="#1b26c6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="270.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="tipo" alignment="CENTER" prefHeight="27.0" prefWidth="271.0" textFill="#e11010">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </TextFlow>
+      <ImageView fitHeight="206.0" fitWidth="197.0" layoutX="345.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Triangulo3d.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
