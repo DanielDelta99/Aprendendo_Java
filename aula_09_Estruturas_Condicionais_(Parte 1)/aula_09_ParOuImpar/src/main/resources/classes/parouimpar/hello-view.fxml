@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="157.0" prefWidth="131.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="classes.parouimpar.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <TextField fx:id="numero" prefHeight="25.0" prefWidth="82.0" />
+  <Button fx:id="verificar" onAction="#actionVerificar" text="Verificar" />
+
+  <Label fx:id="text" textFill="#2f12bc">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+</VBox>
